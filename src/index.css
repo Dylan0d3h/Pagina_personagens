@@ -87,3 +87,29 @@ p {
 .imagem-personagem:hover {
   transform: scale(1.05);
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.favorito {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.favorito:hover {
+  background-color: #c9eae9;
+}
+
+
+.favorito.ativo {
+  background-color: crimson;
+}
